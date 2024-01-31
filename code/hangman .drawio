@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-01-31T16:05:02.866Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="raizWHwsqKeORd6DocOa" version="23.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-31T16:11:07.345Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="l3crUNDuTQiGi_0aiSFN" version="23.0.2" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1357" dy="1878" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3053" dy="2764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -223,17 +223,29 @@
         <mxCell id="yTECt2yy7o1h2HZ25cIH-60" value="คำผิด = 6" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="1992" y="940" width="80" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="2oVvr5gUgx5wugrZln5X-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="yTECt2yy7o1h2HZ25cIH-62">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1560" y="1480" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="2032" y="1380" />
+              <mxPoint x="1561" y="1380" />
+              <mxPoint x="1561" y="1480" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="yTECt2yy7o1h2HZ25cIH-62" value="&lt;div&gt;print(&quot;\n+---+&quot;)&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; print(&quot; O&amp;nbsp; |&quot;)&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; print(&quot;/|\ |&quot;)&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; print(&quot;/ \ |&quot;)&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; print(&quot;&amp;nbsp; &amp;nbsp;===&quot;)&lt;/div&gt;" style="whiteSpace=wrap;html=1;strokeWidth=2;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="1972" y="1070" width="120" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="yTECt2yy7o1h2HZ25cIH-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="yTECt2yy7o1h2HZ25cIH-68" target="yTECt2yy7o1h2HZ25cIH-9" edge="1">
+        <mxCell id="yTECt2yy7o1h2HZ25cIH-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.806;exitY=0.378;exitDx=0;exitDy=0;exitPerimeter=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="yTECt2yy7o1h2HZ25cIH-68" target="2oVvr5gUgx5wugrZln5X-2" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="777" y="870" as="targetPoint" />
+            <mxPoint x="886" y="880.03" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1552" y="1340" />
-              <mxPoint x="827" y="1340" />
-              <mxPoint x="827" y="860" />
+              <mxPoint x="1550" y="1290" />
+              <mxPoint x="1550" y="1360" />
+              <mxPoint x="640" y="1360" />
+              <mxPoint x="640" y="410" />
             </Array>
+            <mxPoint x="1462" y="1310.03" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="yTECt2yy7o1h2HZ25cIH-68" value="" style="shape=waypoint;sketch=0;size=6;pointerEvents=1;points=[];fillColor=default;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;strokeWidth=2;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
@@ -248,13 +260,47 @@
         <mxCell id="2oVvr5gUgx5wugrZln5X-2" value="output :&amp;nbsp;print&lt;span style=&quot;font-family: monospace, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; color: rgb(220, 220, 220);&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;font-family: monospace, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; color: rgb(206, 145, 120);&quot;&gt;&quot;\nตัวอักษรที่เคยเดาจนถึงตอนนี้: &quot;&lt;/span&gt;&lt;span class=&quot;custom-cursor-default-hover&quot; style=&quot;font-family: monospace, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; color: rgb(220, 220, 220);&quot;&gt;) &lt;/span&gt;&lt;span class=&quot;custom-cursor-default-hover&quot; style=&quot;font-family: monospace, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px;&quot;&gt;ตัวอักษรทั้งหมดที่ผู้ใช้พิมพ์เข้ามา&lt;/span&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="816" y="380" width="510" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="2oVvr5gUgx5wugrZln5X-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="2oVvr5gUgx5wugrZln5X-6">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1070.9999999999995" y="670.0000000000005" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="2oVvr5gUgx5wugrZln5X-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="2oVvr5gUgx5wugrZln5X-6" target="2oVvr5gUgx5wugrZln5X-10">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="2oVvr5gUgx5wugrZln5X-6" value="input : print(&lt;span class=&quot;custom-cursor-default-hover&quot; style=&quot;font-family: monospace, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; color: rgb(206, 145, 120);&quot;&gt;&quot;\nเดาตัวอักษร: &quot;&lt;/span&gt;&lt;span style=&quot;font-family: monospace, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; color: rgb(220, 220, 220);&quot;&gt;) &lt;/span&gt;&lt;span style=&quot;font-family: monospace, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px;&quot;&gt;รับค่าตัวอักษรที่ผู้ใช้พิมพ์เข้ามา&lt;/span&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="866" y="530" width="410" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2oVvr5gUgx5wugrZln5X-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="2oVvr5gUgx5wugrZln5X-10" target="yTECt2yy7o1h2HZ25cIH-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2oVvr5gUgx5wugrZln5X-13" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="2oVvr5gUgx5wugrZln5X-12">
+          <mxGeometry x="-0.1041" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2oVvr5gUgx5wugrZln5X-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="2oVvr5gUgx5wugrZln5X-10" target="2oVvr5gUgx5wugrZln5X-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2250" y="700" />
+              <mxPoint x="2250" y="1480" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2oVvr5gUgx5wugrZln5X-10" value="เดาตัวอักษรครบ 6 ครั้ง" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="980" y="660" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="2oVvr5gUgx5wugrZln5X-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="2oVvr5gUgx5wugrZln5X-14" target="2oVvr5gUgx5wugrZln5X-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2oVvr5gUgx5wugrZln5X-14" value="" style="shape=waypoint;sketch=0;fillStyle=solid;size=6;pointerEvents=1;points=[];fillColor=none;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1550" y="1470" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="2oVvr5gUgx5wugrZln5X-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="2oVvr5gUgx5wugrZln5X-17" target="2oVvr5gUgx5wugrZln5X-21">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1560" y="1780" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2oVvr5gUgx5wugrZln5X-17" value="&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: monospace, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;print&lt;span style=&quot;color: #dcdcdc;&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;custom-cursor-default-hover&quot; style=&quot;color: #ce9178;&quot;&gt;&quot;Game is Over! Thank you for playing :)&quot;&lt;/span&gt;&lt;span style=&quot;color: #dcdcdc;&quot;&gt;)&lt;/span&gt;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=none;sketch=0;fillStyle=solid;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1360" y="1570" width="400" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2oVvr5gUgx5wugrZln5X-21" value="Finish" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1510" y="1750" width="100" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
